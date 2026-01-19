@@ -151,7 +151,7 @@ Modelos usados para exibir informações específicas na interface ou retornos.
 * Exibe o total de receitas, despesas e o saldo (receita - despesa) de cada categoria
 * Ao final, exibe o total geral de todas as categorias incluindo o total de receitas, total de despesas e o saldo líquido
 
-## 🛠️ Como Executar o Projeto
+## Como Executar o Projeto
 
 ### Pré-requisitos
 
