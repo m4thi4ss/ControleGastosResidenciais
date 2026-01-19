@@ -31,7 +31,7 @@ Este projeto visa aplicar na prática os conhecimentos de desenvolvimento web, a
 
 A seguir, estão os principais diretórios e arquivos do projeto, organizados por função:
 
-### 📂 Controllers — Camada de Controle da Aplicação
+### Controllers — Camada de Controle da Aplicação
 
 Responsáveis por receber requisições e retornar respostas, conectando as views aos serviços.
 
@@ -40,7 +40,7 @@ Responsáveis por receber requisições e retornar respostas, conectando as view
 * `TransacaoController.cs` - Gerencia operações de transações (criar, listar)
 * `ConsultaController.cs` - Gerencia consultas de totais financeiros
 
-### 📂 DTOs (Data Transfer Objects)
+### DTOs (Data Transfer Objects)
 
 Objetos usados para transferência de dados entre camadas de forma segura.
 
@@ -48,7 +48,7 @@ Objetos usados para transferência de dados entre camadas de forma segura.
 * `CadastroEditarCategoriaDto.cs` - DTO para cadastro e edição de categorias
 * `CadastroEditarTransacaoDto.cs` - DTO para cadastro e edição de transações
 
-### 📂 Interfaces — Contratos dos Repositórios
+### Interfaces — Contratos dos Repositórios
 
 Definem os métodos que as classes de repositório devem implementar.
 
@@ -56,7 +56,7 @@ Definem os métodos que as classes de repositório devem implementar.
 * `ICategoriaRepository.cs` - Interface do repositório de categorias
 * `ITransacaoRepository.cs` - Interface do repositório de transações
 
-### 📂 Models — Entidades do Domínio
+### Models — Entidades do Domínio
 
 Representam as tabelas e entidades principais do sistema.
 
@@ -64,7 +64,7 @@ Representam as tabelas e entidades principais do sistema.
 * `Categoria.cs` - Entidade que representa uma categoria de transação
 * `Transacao.cs` - Entidade que representa uma transação financeira
 
-### 📂 Repositories — Implementações de Acesso a Dados
+### Repositories — Implementações de Acesso a Dados
 
 Classes que acessam o banco de dados com base nas interfaces.
 
@@ -72,7 +72,7 @@ Classes que acessam o banco de dados com base nas interfaces.
 * `CategoriaRepository.cs` - Implementação do repositório de categorias
 * `TransacaoRepository.cs` - Implementação do repositório de transações
 
-### 📂 ViewModels — Estruturas de Visualização
+### ViewModels — Estruturas de Visualização
 
 Modelos usados para exibir informações específicas na interface ou retornos.
 
@@ -82,11 +82,11 @@ Modelos usados para exibir informações específicas na interface ou retornos.
 * `TotalPorPessoaViewModel.cs` - ViewModel para totais por pessoa
 * `TotalPorCategoriaViewModel.cs` - ViewModel para totais por categoria
 
-### 📂 Data — Contexto do Banco de Dados
+### Data — Contexto do Banco de Dados
 
 * `ApplicationDbContext.cs` - Contexto do Entity Framework Core para acesso ao banco de dados
 
-### 📂 Frontend — Aplicação React
+### Frontend — Aplicação React
 
 * `src/App.tsx` - Componente principal da aplicação React
 * `src/main.tsx` - Ponto de entrada da aplicação React
